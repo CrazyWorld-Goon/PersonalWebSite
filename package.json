@@ -1,0 +1,24 @@
+{
+  "name": "psite",
+  "version": "1.0.1",
+  "description": "calc with bio",
+  "keywords": [
+    "bio",
+    "site"
+  ],
+  "homepage": "https://github.com/CrazyWorld-Goon/PersonalWebSite#readme",
+  "bugs": {
+    "url": "https://github.com/CrazyWorld-Goon/PersonalWebSite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrazyWorld-Goon/PersonalWebSite.git"
+  },
+  "license": "MIT",
+  "author": "CrazyWorld",
+  "type": "commonjs",
+  "main": "scripts/node.js",
+  "scripts": {
+    "test": "mocha"
+  }
+}
