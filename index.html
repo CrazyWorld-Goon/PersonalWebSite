@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Crazyworld — beginning developer. Portfolio and contact.">
+  <title>Crazyworld — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/avatar.jpg" type="image/jpeg">
+</head>
+<body class="lang-en">
+  <a class="skip-link" href="#main"><span class="lang-en">Skip to content</span><span class="lang-ru">К основному содержимому</span></a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#top">Crazyworld</a>
+      <div class="nav-actions">
+        <button type="button" class="btn-calc" id="open-calculator" aria-haspopup="dialog" aria-controls="calculator-dialog">
+          <span class="lang-en">Calculator</span>
+          <span class="lang-ru">Калькулятор</span>
+        </button>
+        <nav class="nav-links" aria-label="Page">
+          <a href="#about"><span class="lang-en">About</span><span class="lang-ru">Обо мне</span></a>
+          <a href="#experience"><span class="lang-en">Experience</span><span class="lang-ru">Опыт</span></a>
+          <a href="#projects"><span class="lang-en">Projects</span><span class="lang-ru">Проекты</span></a>
+          <a href="#contact"><span class="lang-en">Contact</span><span class="lang-ru">Контакты</span></a>
+        </nav>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" id="lang-en" aria-pressed="true">EN</button>
+          <button type="button" id="lang-ru" aria-pressed="false">RU</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div id="top" class="hero">
+      <div class="hero-copy">
+        <h1>
+          <span class="lang-en">Hi, I’m Crazyworld</span>
+          <span class="lang-ru">Привет, я Crazyworld</span>
+        </h1>
+        <p class="hero-tagline">
+          <span class="lang-en">Beginning developer · 34 · fast learner</span>
+          <span class="lang-ru">Начинающий разработчик · 34 года · быстро учусь</span>
+        </p>
+        <p class="hero-lead">
+          <span class="lang-en">I’m starting my path in development and pick up new tools and ideas very quickly. This site is a simple portfolio — more projects will appear here as I build them.</span>
+          <span class="lang-ru">Я только начинаю путь в разработке и очень быстро осваиваю новые технологии и подходы. Этот сайт — простое портфолио; по мере роста здесь появятся проекты.</span>
+        </p>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-wrap">
+          <img src="images/avatar.jpg" width="480" height="480" alt="Crazyworld" decoding="async" fetchpriority="high">
+        </div>
+      </div>
+    </div>
+
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">
+        <span class="lang-en">About</span>
+        <span class="lang-ru">Обо мне</span>
+      </h2>
+      <div class="card">
+        <p>
+          <span class="lang-en">I’m 34 and new to professional development. What I bring is a very high capacity for learning: I enjoy digging into documentation, trying things in practice, and connecting the dots between how systems work end to end.</span>
+          <span class="lang-ru">Мне 34 года, и профессиональная разработка для меня — новый этап. Сильная сторона — очень высокая способность к обучению: мне нравится разбирать документацию, пробовать на практике и понимать, как всё устроено от начала до конца.</span>
+        </p>
+        <p class="muted">
+          <span class="lang-en">This page is static HTML and CSS (variant A) — easy to host anywhere.</span>
+          <span class="lang-ru">Страница на чистом HTML и CSS (вариант A) — её легко выложить на любой хостинг.</span>
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="exp-heading">
+      <h2 id="exp-heading">
+        <span class="lang-en">Before code</span>
+        <span class="lang-ru">До кода</span>
+      </h2>
+      <div class="card">
+        <p>
+          <span class="lang-en">I don’t have dev projects to show yet, but I have serious leadership experience: I managed a large photo service with a team of about 50 people. That meant coordination, quality standards, deadlines, and people — skills that transfer well to building software in a team.</span>
+          <span class="lang-ru">Пока нет проектов в разработке, зато есть сильный управленческий опыт: я руководил крупной фотослужбой примерно из 50 сотрудников. Это координация, качество, сроки и люди — всё это хорошо ложится на работу в команде над продуктом.</span>
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="proj-heading">
+      <h2 id="proj-heading">
+        <span class="lang-en">Projects</span>
+        <span class="lang-ru">Проекты</span>
+      </h2>
+      <div class="card projects-empty">
+        <p>
+          <span class="lang-en">No public projects yet — I’m focusing on fundamentals and first releases. Check back soon.</span>
+          <span class="lang-ru">Публичных проектов пока нет — сейчас упор на базу и первые релизы. Загляните позже.</span>
+        </p>
+        <p class="muted">
+          <span class="lang-en">When I publish work, it will be linked here (e.g. GitHub or live demos).</span>
+          <span class="lang-ru">Когда появятся работы, здесь будут ссылки (например, GitHub или демо).</span>
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">
+        <span class="lang-en">Contact</span>
+        <span class="lang-ru">Контакты</span>
+      </h2>
+      <div class="card">
+        <ul class="contact-list">
+          <li>
+            <a href="https://t.me/vzark" rel="noopener noreferrer" target="_blank">Telegram — @vzark</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="calculator-dialog" class="calculator-dialog" aria-labelledby="calculator-dialog-title">
+    <div class="calculator-dialog__inner">
+      <div class="calculator-dialog__head">
+        <h2 class="calculator-dialog__title" id="calculator-dialog-title">
+          <span class="lang-en">Calculator</span>
+          <span class="lang-ru">Калькулятор</span>
+        </h2>
+        <button type="button" class="calculator-dialog__close" id="calculator-dialog-close" aria-label="Close" title="Close">×</button>
+      </div>
+      <cw-calculator></cw-calculator>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>
+      <span class="lang-en">© Crazyworld. Built with HTML &amp; CSS.</span>
+      <span class="lang-ru">© Crazyworld. Сделано на HTML и CSS.</span>
+    </p>
+  </footer>
+
+  <script src="app.js" defer></script>
+  <script type="module" src="components/calculator/calculator-launcher.js"></script>
+</body>
+</html>
