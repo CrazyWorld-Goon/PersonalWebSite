@@ -20,5 +20,8 @@
   "main": "scripts/node.js",
   "scripts": {
     "test": "mocha"
+  },
+  "dependencies": {
+    "@fabric/core": "FabricLabs/fabric#feature/v0.1.0-RC1"
   }
 }
